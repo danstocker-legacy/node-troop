@@ -11,6 +11,7 @@ var node = {};
  * @return {troop.Base|undefined}
  */
 function require(moduleName) {
+    "use strict";
     return node[moduleName];
 }
 
