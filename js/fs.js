@@ -5,7 +5,7 @@
  * @extends troop.Base
  */
 node.fs = troop.Base.extend()
-    .addMethod(/** @lends node.fs*/{
+    .addMethods(/** @lends node.fs*/{
         exists: function (filePath, handler) {
             handler(true);
         },

@@ -5,7 +5,7 @@
  * @extends troop.Base
  */
 node.Stats = troop.Base.extend()
-    .addMethod({
+    .addMethods({
         init: function () {},
 
         isDirectory: function () {return false;},

@@ -5,5 +5,5 @@
  * @extends troop.Base
  */
 node.http = troop.Base.extend()
-    .addMethod(/** @lends node.http*/{
+    .addMethods(/** @lends node.http*/{
     });

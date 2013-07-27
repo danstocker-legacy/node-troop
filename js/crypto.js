@@ -5,5 +5,5 @@
  * @extends troop.Base
  */
 node.crypto = troop.Base.extend()
-    .addMethod(/** @lends node.crypto*/{
+    .addMethods(/** @lends node.crypto*/{
     });

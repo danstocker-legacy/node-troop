@@ -5,5 +5,5 @@
  * @extends troop.Base
  */
 node.path = troop.Base.extend()
-    .addMethod(/** @lends node.path*/{
+    .addMethods(/** @lends node.path*/{
     });

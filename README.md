@@ -1,4 +1,4 @@
 Node - Troop
 ============
 
-Troop-compatible mocks for basic Node modules.
+Troop-compatible stubs and mocks for basic Node modules.

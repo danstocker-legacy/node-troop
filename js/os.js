@@ -5,5 +5,5 @@
  * @extends troop.Base
  */
 node.os = troop.Base.extend()
-    .addMethod(/** @lends node.os*/{
+    .addMethods(/** @lends node.os*/{
     });

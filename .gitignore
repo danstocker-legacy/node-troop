@@ -1,5 +1,4 @@
-/lib/
-/targets.sh
-/build*.sh
 /.idea/
 /out/
+/node_modules/
+/node-troop.js

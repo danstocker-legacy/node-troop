@@ -5,5 +5,5 @@
  * @extends troop.Base
  */
 node.url = troop.Base.extend()
-    .addMethod(/** @lends node.url*/{
+    .addMethods(/** @lends node.url*/{
     });
