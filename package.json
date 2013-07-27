@@ -4,7 +4,7 @@
     "description"    : "Troop-based Node stubs",
     "keywords"       : ["node", "node.js", "troop", "stub", "stubs"],
     "author"         : "Dan Stocker <dan@kwaia.com>",
-    "copyright"      : "Copyright (c) 2012-2013 Dan Stocker",
+    "copyright"      : "Copyright (c) 2013 Dan Stocker",
     "license"        : "MIT",
     "repository"     : {
         "type": "git",
