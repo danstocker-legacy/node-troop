@@ -1,12 +1,6 @@
-/*global dessert, troop, node */
-(function () {
-    "use strict";
-
+/*global dessert, troop */
     /**
-     * @class node.os
+     * @class
      * @extends troop.Base
      */
-    node.os = troop.Base.extend()
-        .addMethods(/** @lends node.os*/{
-        });
-}());
+    window.os = troop.Base.extend();

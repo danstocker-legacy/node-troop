@@ -4,13 +4,14 @@ module.exports = function (grunt) {
 
     var params = {
         files: [
-            'js/namespace.js',
+            'js/globals.js',
             'js/crypto.js',
             'js/fs.js',
             'js/http.js',
             'js/os.js',
             'js/path.js',
-            'js/Stats.js',
+            'js/process.js',
+            'js/require.js',
             'js/url.js'
         ],
 

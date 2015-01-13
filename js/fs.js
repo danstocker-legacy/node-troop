@@ -1,31 +1,77 @@
-/*global dessert, troop, node */
+/*global dessert, troop */
 (function () {
     "use strict";
 
     /**
-     * @class node.fs
+     * @class
      * @extends troop.Base
      */
-    node.fs = troop.Base.extend()
-        .addMethods(/** @lends node.fs*/{
-            exists: function (filePath, handler) {
-                handler(true);
+    window.fs = troop.Base.extend()
+        .addMethods(/** @lends fs*/{
+            /**
+             * @param {string} path
+             * @param {function} callback
+             */
+            exists: function (path, callback) {
+                callback(true);
             },
 
-            existsSync: function (filePath) {return true;},
-
-            readFile: function (filePath, mode, handler) {
-                handler(false, '');
+            /**
+             * @param {string} path
+             * @returns {boolean}
+             */
+            existsSync: function (path) {
+                return true;
             },
 
-            readFileSync: function (filePath) {return '';},
+            /**
+             * @param {string} filename
+             * @param {object} [options]
+             * @param {function} callback
+             */
+            readFile: function (filename, options, callback) {
+                callback(null, '');
+            },
 
-            statSync: function (filePath) {return node.Stats.create();},
+            /**
+             * @param {string} filename
+             * @param {object} [options]
+             * @returns {string}
+             */
+            readFileSync: function (filename, options) {
+                return '';
+            },
 
-            lstatSync: function (filePath) {return node.Stats.create();},
+            /**
+             * @param {string} path
+             * @param {string} [mode]
+             * @param {function} callback
+             */
+            mkdir: function (path, mode, callback) {
+                callback(null);
+            },
 
-            mkdirSync: function (cachePath, attributeString) {},
+            /**
+             * @param {string} path
+             * @param {string} [mode]
+             */
+            mkdirSync: function (path, mode) {
+            },
 
-            readdirSync: function (filePath) {return [];}
+            /**
+             * @param {string} path
+             * @param {function} callback
+             */
+            readdir: function (path, callback) {
+                callback(null, []);
+            },
+
+            /**
+             * @param {string} path
+             * @returns {Array}
+             */
+            readdirSync: function (path) {
+                return [];
+            }
         });
 }());

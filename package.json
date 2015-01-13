@@ -1,10 +1,10 @@
 {
     "name"           : "node-troop",
-    "version"        : "0.1.1",
+    "version"        : "0.2.0",
     "description"    : "Troop-based Node stubs",
     "keywords"       : ["node", "node.js", "troop", "stub", "stubs"],
     "author"         : "Dan Stocker <dan@kwaia.com>",
-    "copyright"      : "Copyright (c) 2013 Dan Stocker",
+    "copyright"      : "Copyright (c) 2013-2014 Dan Stocker",
     "license"        : "MIT",
     "repository"     : {
         "type": "git",
@@ -12,7 +12,7 @@
     },
     "dependencies"   : {
         "dessert": "~0.3.2",
-        "troop"  : "~0.5.1"
+        "troop"  : "~0.8.0"
     },
     "devDependencies": {
         "grunt"               : "~0.4.1",
@@ -23,7 +23,7 @@
         "grunt-contrib-copy"  : "~0.4.1",
         "grunt-jsdoc"         : "~0.3.3",
         "grunt-regex-replace" : "~0.2.5",
-        "common-gruntfile"    : "git://github.com/danstocker/common-gruntfile.git#0.1.5",
+        "common-gruntfile"    : "git://github.com/danstocker/common-gruntfile.git#0.1.7",
         "QUnitAdapter"        : "https://dl.dropboxusercontent.com/u/9258903/packages/QUnitAdapter-0.1.0.tgz"
     },
     "files"          : [

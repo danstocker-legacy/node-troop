@@ -1,9 +1,16 @@
 Node - Troop
 ============
 
-Troop-based stubs and mocks for basic Node modules.
+Troop-based stubs for testing server side code with browser-based tools such as jsTestDriver.
 
 Heavily incomplete.
+
+Usage
+-----
+
+Make sure `troop.testing = true;` is applied before anything references these stubs.
+
+Default methods have been included for convenience. You may apply mock methods for functions that are not implemented on the stub.
 
 Example
 -------
@@ -13,8 +20,8 @@ Mocking file reading:
     var fs = require('fs');
 
     fs.addMocks({
-        readFile: function (fileName, handler) {
-            handler(undefined, "file contents");
+        readFile: function (filename, callback) {
+            callback(null, "file contents");
         }
     });
 

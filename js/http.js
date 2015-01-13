@@ -1,12 +1,6 @@
-/*global dessert, troop, node */
-(function () {
-    "use strict";
-
-    /**
-     * @class node.http
-     * @extends troop.Base
-     */
-    node.http = troop.Base.extend()
-        .addMethods(/** @lends node.http*/{
-        });
-}());
+/*global dessert, troop */
+/**
+ * @class http
+ * @extends troop.Base
+ */
+window.http = troop.Base.extend();

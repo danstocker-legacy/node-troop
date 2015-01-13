@@ -1,12 +1,6 @@
-/*global dessert, troop, node */
-(function () {
-    "use strict";
-
-    /**
-     * @class node.crypto
-     * @extends troop.Base
-     */
-    node.crypto = troop.Base.extend()
-        .addMethods(/** @lends node.crypto*/{
-        });
-}());
+/*global dessert, troop */
+/**
+ * @class
+ * @extends troop.Base
+ */
+window.crypto = troop.Base.extend();
