@@ -8,9 +8,9 @@ Heavily incomplete.
 Usage
 -----
 
-Make sure `troop.testing = true;` is applied before anything references these stubs.
+Make sure `troop.testing = true;` is applied before managing mock methods.
 
-Default methods have been included for convenience. You may apply mock methods for functions that are not implemented on the stub.
+Default methods have been included for convenience. You may add mock methods for functions that are not implemented on the stub.
 
 Example
 -------
